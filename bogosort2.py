@@ -15,8 +15,8 @@ def bogosort(lst):
 
 # Example usage
 
-lst = [random.randint(1, 100) for _ in range(50)]
-
+n = int(input("Enter an integer: "))
+lst = [random.randint(1, 100) for _ in range(n)]
 
 sorted_lst = bogosort(lst)
 print(sorted_lst)
