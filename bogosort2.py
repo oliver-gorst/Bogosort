@@ -8,7 +8,7 @@ def is_sorted(lst):
     return True
 
 def bogosort(lst):
-    """Sorts the list using the bogosort algorithm"""
+    """Sorts the list using the Bogosort algorithm"""
     while not is_sorted(lst):
         random.shuffle(lst)
     return lst
@@ -22,6 +22,7 @@ sorted_lst = bogosort(lst)
 print(sorted_lst)
 
 #Need a way to expand the size of the bogosort
+
 
 
 
