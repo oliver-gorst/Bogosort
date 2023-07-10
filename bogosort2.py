@@ -21,7 +21,7 @@ lst = [random.randint(1, 100) for _ in range(n)]
 sorted_lst = bogosort(lst)
 print(sorted_lst)
 
-#Need a way to expand the size of the bogosort
+#Need a way to expand the size of the bogosort 
 
 
 
