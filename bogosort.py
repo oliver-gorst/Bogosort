@@ -6,6 +6,7 @@ def is_sorted(arr):
             return False
     return True
 
+
 def bogosort(arr):
     while not is_sorted(arr):
         random.shuffle(arr)
